@@ -2,6 +2,10 @@
 layout: page
 title: Andy Ewing - Blog
 permalink: /blog/
+home_link: "https://andymewing.com"
+resume_link: "https://andymewing.com/#resume"
+blog_link: "https://andymewing.com/#blog"
+contact_link: "https://andymewing.com/#contact"
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)

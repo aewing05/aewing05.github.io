@@ -21,20 +21,20 @@
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary" id="navbar1">
         <div class="container">
-            <a class="navbar-brand mr-1 mb-1 mt-0" href="#">Home</a>
+            <a class="navbar-brand mr-1 mb-1 mt-0" href="{{ page.home_link }}">Home</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse collapse justify-content-center" id="collapsingNavbar">                       
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#resume">Resume Lite</a>
+                        <a class="nav-link" href="{{ page.resume_link }}">Resume Lite</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
+                        <a class="nav-link" href="{{ page.blog_link }}">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="{{ page.contact_link }}">Contact</a>
                     </li>
                 </ul>
             </div>

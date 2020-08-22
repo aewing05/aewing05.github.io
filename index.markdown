@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Andy Ewing - Home
+home_link: "#"
+resume_link: "#resume"
+blog_link: "#blog"
+contact_link: "#contact"
 ---
 <body data-spy="scroll" data-target="#navbar1" data-offset="60">
 <header class="bg-primary">
